@@ -74,21 +74,7 @@ ll phin(ll n) {ll number = n; if (n % 2 == 0) {number /= 2; while (n % 2 == 0) n
 ll getRandomNumber(ll l, ll r) {return uniform_int_distribution<ll>(l, r)(rng);} 
 /*--------------------------------------------------------------------------------------------------------------------------*/
 void solve() {
-    int n;
-    cin >> n;
-    for (int i=1; i<n; i++){
-        if (i & 1){
-            cout << "-1 ";
-        }else{
-            cout << "3 ";
-        }
-    }
-    if (!(n & 1)){
-        cout << "2 ";
-    }else{
-        cout << "-1 ";
-    }
-    cout << "\n";
+    
 }
 int main() {
 #ifdef Priyansh31dec
@@ -96,18 +82,10 @@ int main() {
 #endif
     fastio();
     auto start1 = high_resolution_clock::now();
-
-    int T;
-    cin >> T;
-    while (T--){
-        solve();
-    }
-
+    solve();
     auto stop1 = high_resolution_clock::now();
     auto duration = duration_cast<microseconds>(stop1 - start1);
-
 #ifdef Priyansh31dec
     cerr << "Time: " << duration . count() / 1000 << endl;
 #endif
-    
 }
