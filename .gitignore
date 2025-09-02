@@ -4,3 +4,11 @@
 *.out
 
 .keys
+
+.vscode/
+
+*.pdf
+
+Books/
+
+UCSD/
