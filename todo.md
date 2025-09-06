@@ -54,7 +54,7 @@
 - [ ] Graph Basics
 - [ ] Graph Traversal (DFS, BFS)
 - [ ] Shortest Paths (Bellman-Ford, Dijkstra, Floyd-Warshall)
-- [ ] Directed Graphs (Topological Sort, DP, Cycle Detection, Successor Paths)
+- [X] Directed Graphs (Topological Sort, DP, Cycle Detection, Successor Paths)
 - [ ] Tree Algorithms (Tree Traversal, Diameter, Longest Paths, Binary Trees)
 - [ ] Spanning Trees (Kruskal, Prim, Union-find)
 - [ ] Strong Connectivity (Kosaraju, 2-SAT)
